@@ -58,6 +58,7 @@ PROJECT_APPS = [
     'playactivity',
     'playcourse',
     'playexo',
+    'dashboard',
 ]
 INSTALLED_APPS = PREREQ_APPS + THIRD_PARTY_APPS + PROJECT_APPS
 
