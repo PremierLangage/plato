@@ -5,6 +5,8 @@ from django.db import models
 class Course(models.Model):
 
 ## ceci est le model de base de Activity dans 0.7.* AVEC quelques ajouts ;)
+
+"""
     name = models.CharField(max_length=255, null=False) # this is the moodle/LTI name 
     platonname= models.CharField(max_length=255, null=True) # used in display if null use name
     open = models.BooleanField(default=True) # accessible 
@@ -23,7 +25,7 @@ class Course(models.Model):
     stat_data = JSONField(default=dict)
     stat_timestamp = models.DateTimeField()
 
-
+"""
 
 # doit contenir les stats du cours dans un json field avec un système de cache
 # rafraichissement toutes les heures (seulement) 
